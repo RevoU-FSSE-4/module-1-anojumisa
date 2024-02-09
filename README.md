@@ -38,7 +38,7 @@ It's important to note that while English remains the most widely used language 
 
 ### Screenshot
 
-![JEKI Landing Page Screenshot](/module-1-anojumisa/images/JEKI%20Landing%20Page.png)
+![JEKI Landing Page Screenshot](/images/JEKI%20Landing%20Page.png)
 
 ### Links
 
