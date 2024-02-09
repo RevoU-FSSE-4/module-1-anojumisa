@@ -38,14 +38,12 @@ It's important to note that while English remains the most widely used language 
 
 ### Screenshot
 
-![JEKI Landing Page Screenshot](/images/JEKI%20Landing%20Page.png)
+![JEKI Landing Page Screenshot](/module-1-anojumisa/images/JEKI%20Landing%20Page.png)
 
 ### Links
 
--   Repository: [GitHub Repository](url)
--   Live Site URL: [GitHub Page](url)
-
-## My approach
+-   Repository: [GitHub Repository](https://github.com/RevoU-FSSE-4/module-1-anojumisa)
+-   Live Site URL: [Netlify](https://jejaring-kode-indonesia.netlify.app/)
 
 ### Built with
 
