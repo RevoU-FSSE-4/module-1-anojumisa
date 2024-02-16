@@ -40,11 +40,7 @@ Highlights of My Project:
 
 ### Screenshot
 
-<<<<<<< HEAD
 ![JEKI Landing Page Screenshot](images/JEKI%20Landing%20Page.png)
-=======
-![JEKI Landing Page Screenshot](/images/JEKI%20Landing%20Page.png)
->>>>>>> origin/main
 
 ### Links
 
