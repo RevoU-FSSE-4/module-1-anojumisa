@@ -18,78 +18,49 @@
         />
     </head>
     <body>
-        <nav class="navbar">
-            <div class="menu"><a href="">Loker & Direktori</a></div>
-            <div class="submenu">
-                <a href="">Telusuri Loker</a>
-                <a href="">Kirim Lamaran</a>
-                <a href="">Buat Lowongan</a>
-            </div>
-        </nav>
-
-        <!-- <nav class="navbar">
-            <ul>
-                <li><a href="">Forum</a></li>
-                <li class="subnav"><a href="">Loker & Direktori</a></li>
-                <ul>
-                    <li class="sub-subnav">
-                        <a href=""> Lowongan pekerjaan</a>
-                        <ul>
-                            <li><a href="#">Telusuri loker</a></li>
-                            <li><a href="#">Kirim lamaran</a></li>
-                            <li><a href="#">Buat lowongan</a></li>
-                            <li><a href="#">Buat proyek pemrograman</a></li>
-                        </ul>
-                    </li>
-                    <li class="sub-subnav">
-                        <a href=""> Talenta</a>
-                        <ul>
-                            <li><a href="#">Developer terkurasi</a></li>
-                        </ul>
-                    </li>
-                    <li class="sub-subnav">
-                        <a href=""> Direktori</a>
-                        <ul>
-                            <li><a href="#">Front End Developer</a></li>
-                            <li><a href="#">Back End Developer</a></li>
-                            <li><a href="#">UI/UX Designer</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <li><a href="">Anggota</a></li>
-                <li class="subnav"><a href="">Kegiatan</a></li>
-                <ul>
-                    <li class="sub-subnav">
-                        <a href=""> Daring</a>
-                        <ul>
-                            <li><a href="#">Livestream coding session</a></li>
-                            <li><a href="#">Temu daring pegiat industri</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="sub-subnav">
-                        <a href=""> Luring</a>
-                        <ul>
-                            <li><a href="#">Kopdar JEKI</a></li>
-                            <li><a href="#">Hackathon</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <li><a href="">Tantangan</a></li>
-                <li><a href="">Pustaka</a></li>
-                <li><a href="">Mentorship</a></li>
-            </ul>
-        </nav> -->
-
         <header>
+            <nav class="navbar">
+                <img src="images/logo.png" alt="" />
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-btn" for="menu-toggle">
+                    <span></span>
+                </label>
+                <ul class="menu-box">
+                    <li>
+                        <a class="menu-item" href="">Forum</a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="">Direktori</a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="">Tantangan</a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="">Pustaka</a>
+                    </li>
+                    <li>
+                        <button>
+                            <a class="menu-item" href="#">sign in</a>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <article class="main-section">
             <div class="welcoming-text">
-                <strong><h1>JEKI - Jejaring Kode Indonesia</h1></strong>
+                <div class="animation">
+                    <h1>JEKI</h1>
+                    <div class="text-container">
+                        <span class="text" data-text="Hallo">Jejaring </span>
+                        <span class="text" data-text="Holla"> Kode </span>
+                        <span class="text" data-text="Hi"> Indonesia</span>
+                    </div>
+                </div>
 
                 <h2>Selamat datang di komunitas developer Indonesia!</h2>
                 <p>
-                    Kode Bareng, Sukses Bareng. Lebih dari sekadar platform,
+                    Ngoding Bareng, Sukses Bareng. Lebih dari sekadar platform,
                     <strong>JEKI</strong> adalah keluarga developer yang saling
                     dukung dan raih mimpi bersama.
                 </p>
@@ -98,10 +69,10 @@
                 src="https://img.freepik.com/premium-photo/hands_3579-2346.jpg?size=626&ext=jpg&ga=GA1.1.1713722768.1706278596&semt=sph"
                 alt=""
             />
-        </header>
+        </article>
 
         <main>
-            <div>
+            <div class="cards">
                 <section>
                     <h3>Pustaka Kode</h3>
                     <img src="images/Code.svg" alt="" />
@@ -216,39 +187,49 @@
             </form>
         </main>
 
-        <footer>
-            <h4>
-                <address>
-                    <p>Hubungi Kami</p>
-                    <strong>JEKI - Jejaring Kode Indonesia</strong>
-                    <p>Jakarta, Indonesia</p>
-                    <a href=""
-                        ><img
-                            src="images/github-icon.png"
-                            alt="GitHub repository"
-                    /></a>
-                </address>
-            </h4>
-            <h4>Tentang kami</h4>
-            <ul>
-                <li><a href="">Misi</a></li>
-                <li><a href="">Sejarah</a></li>
-                <li><a href="">Pendiri</a></li>
-            </ul>
-
-            <h4>FAQ</h4>
-            <ul>
-                <li><a href="">Apa itu JEKI?</a></li>
-                <li><a href="">Bagaimana cara bergabung dengan JEKI?</a></li>
-                <li><a href="">Apa saja manfaat bergabung dengan JEKI?</a></li>
-            </ul>
-
-            <h4><a href="">Blog</a></h4>
-            <h4><a href="">Komunitas</a></h4>
-            <h5>
-                Copyright &copy;
-                <a href="https://github.com/anojumisa">Ano Jumisa</a>, 2024.
-            </h5>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>JEKI</h4>
+                        <ul>
+                            <li><a href="#">Tentang Kami</a></li>
+                            <li><a href="#">Hubungi Kami</a></li>
+                            <li><a href="#">Berita Terbaru</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Cari Bantuan</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Komunitas</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Ikuti Kami</h4>
+                        <div class="social-links">
+                            <a href="#"
+                                ><img src="images/instagram-icon.svg" alt=""
+                            /></a>
+                            <a href="#"
+                                ><img src="images/facebook-icon.svg" alt=""
+                            /></a>
+                            <a href="#"
+                                ><img src="images/github-icon.svg" alt=""
+                            /></a>
+                            <a href="#"
+                                ><img src="images/discord-icon.svg" alt=""
+                            /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
+        <strong class="copyright"
+            >Copyright &copy;<a href="https://github.com/anojumisa"
+                >Ano Jumisa</a
+            >, 2024</strong
+        >
     </body>
 </html>
