@@ -34,7 +34,9 @@ nav {
 }
 .menu-box {
     padding: 20px;
+    padding-right: 40px;
 }
+
 .navbar img {
     width: 150px;
     padding-left: 30px;
@@ -61,7 +63,7 @@ button {
 }
 button:hover {
     background-color: #0d0e13;
-    color: white;
+    color: #c69749;
     font-weight: bold;
     border: none;
 }
