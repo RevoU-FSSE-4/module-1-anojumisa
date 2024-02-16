@@ -1,0 +1,120 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    background: #092635;
+}
+nav a {
+    color: #9ec8b9;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #77985cbb;
+    color: #0b3124;
+    justify-items: center;
+    align-items: center;
+}
+.welcoming-text {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    border-radius: 12px;
+    width: 30vw;
+    box-shadow: 10px 10px 8px #405a50;
+}
+main {
+    background-color: #dbe7c9;
+    color: #fbfada;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    /* width: 1200px; */
+    text-align: center;
+    gap: 20px;
+}
+section {
+    background-color: #5c8374;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+
+    box-shadow: 10px 10px 8px #888888;
+    width: 30vw;
+    height: 30vh;
+}
+section img {
+    max-width: 40%;
+    object-fit: contain;
+}
+section h3 {
+    text-shadow: 2px 4px 2px #333;
+}
+section p {
+    font-size: 0.8em;
+    text-shadow: 2px 4px 2px #333;
+}
+
+form {
+    background-color: #1b4242;
+    padding: 20px;
+    width: 100vw;
+    line-height: 2;
+}
+input[type="url"],
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    width: 50vw;
+    height: 2em;
+    border-radius: 8px;
+    padding-left: 1em;
+    letter-spacing: 0.1em;
+}
+select {
+    height: 2em;
+    border-radius: 8px;
+}
+textarea {
+    width: 50vw;
+    padding-left: 1em;
+    border-radius: 10px;
+    letter-spacing: 0.1em;
+    padding-top: 1em;
+    font-family: "Poppins", sans-serif;
+}
+textarea::placeholder {
+    font-family: "Poppins", sans-serif;
+}
+form i {
+    font-size: 0.7em;
+}
+input[type="submit"] {
+    background-color: #9ec8b9;
+    font-family: "Poppins", sans-serif;
+    width: 8em;
+    height: 2.5em;
+    border-radius: 8px;
+}
+input[type="submit"]:hover {
+    background-color: #c69749;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: ;
+}
+footer {
+    background-color: #294b29;
+    color: #fbfada;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer a {
+    text-decoration: none;
+}
